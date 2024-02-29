@@ -9,7 +9,7 @@ from azure.identity.aio import AzureDeveloperCliCredential, get_bearer_token_pro
 from azure.keyvault.secrets.aio import SecretClient
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 
-AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=triyamadlspoc;AccountKey=x+PvCaWF3xrRub308EXBYifGe31IzQa9fXMbHQPMsYSj0oRmMfXoTkAHY0x66VAR1nys2sZz1lKl+AStckli+A==;EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName==;EndpointSuffix=core.windows.net"
 CONTAINER_NAME = "openai"
 
 from prepdocslib.blobmanager import BlobManager
